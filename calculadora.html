@@ -7,6 +7,23 @@
     <title>Calculadora</title>
 </head>
 <body>
-    
+
+    <form action="">
+        <label for="">
+            Sumando 1
+            <input type="number" id="num1" required>
+        </label>
+        <label for="">
+            Sumando 2
+            <input type="number" id="num2" required>
+        </label>
+        <button type="button" id="sumar">Sumar!</button>
+    </form>
+
+    <p style="display: none;" id="mostrar_resultado">
+        El resultado de la suma es <span id="resultado"></span>
+    </p>
+
+    <script src="./js/calculadora.js"></script>
 </body>
 </html>
